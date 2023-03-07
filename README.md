@@ -1,2 +1,0 @@
-# ProyectoCV
-Proyecto de práctica
