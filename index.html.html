@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"CV de Heidi Tucker";</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="https://uploads-ssl.webflow.com/6182229aaba96ff6498379bb/63a1daed3370b9cfe2e3b1f9_interview-6.png">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id= "nombre"> Heidi Tucker</h1>
+
+    <h2 id= "profesion"> Diseñadora Gráfica</h2>
+
+<section id="box">
+    
+
+    <section id= "datos">
+    <h3>Datos Personales</h3>
+        <li>Heidi Tucker</li>
+        <li>28 Años</li>
+        <li>Estadounidense</li>
+        <li>975 Hogan St, Gresham, Oregón</li>
+    </section>      
+
+
+    <section id= "contacto">
+    <h3>Contacto</h3>
+        <li>Tel: (486) 918-1495</li>
+        <li>E-mail: heidi.tucker@example.com</li> 
+    </section>
+
+    <section id="img">
+        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Foto del CV"
+        height="250px" width="240px"/>
+        </section>    
+
+    <section id= "estudios">   
+     <h3>Estudios</h3>
+        <li>Secundario</li>
+        <p>Gresham High School 2007 - 2012</p>
+        <li>Universidad</li>
+        <p>Universidad estatal de Portland 2013 - 2017</p>
+        <button onclick="masInfo2()">Más info</button>   
+        <p id="demo1"></p> 
+    </section>
+    
+    <section id= "experiencia">
+    <h3>Experiencia</h3>
+        <li>Pasantía</li>
+        <p>WinCo Foods 2016 - 2017</p>
+        <li>Trabajo Formal</li>
+        <p>Primark 2018 - 2022</p>
+        <button onclick="masInfo3()">Más info</button>   
+        <p id="demo3"></p> 
+    </section>    
+</section> 
+
+    <div id= "extras">
+    <h3>Extras</h3>
+        <li>Idiomas</li>
+        <p id = "it" >Italiano</p>
+        <p>Español</p>
+        <li>Programas</li>
+        <p> Affinity,
+            Adobe Photoshop CC,
+            Adobe Illustrator,
+            Adobe InDesign,
+            Pixpa,
+            Corel Draw.</p>
+
+        <button onclick="masInfo1()">Más info</button>   
+        <p id="demo"></p> 
+        </div>  
+    
+
+    <script lang="Javascript">
+
+function masInfo1() {
+  document.getElementById("demo").innerHTML = "Italiano fluido, tanto escrito como oral. Ingles nativo";
+}
+
+function masInfo2() {
+  document.getElementById("demo1").innerHTML = "Recibida con honores";
+}
+
+function masInfo3() {
+  document.getElementById("demo3").innerHTML = "Pasantía realizada con la universidad y recomendada, directamente por ellos, a mi primer trabajo formal";
+}
+</script>
+
+</body>
+</html>

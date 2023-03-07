@@ -1,0 +1,157 @@
+#nombre{
+    text-shadow: 4px 3px 3px #FF4D6A;
+    font-family: 'Comfortaa', cursive;
+    color: #F19CBB;
+    font-size: 75px;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+    margin-left: 0%;
+    size: 100px; 
+    width: auto;
+    height: auto;
+}
+
+#profesion{
+    font-size: 30px;
+    color: #FF4D6A;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 0%;
+    border-bottom: 4px double #FF4D6A;
+}
+
+*{
+    background:#FFE6EE;
+    box-sizing: border-box;
+}
+
+img{
+    border: 25px solid;
+    border-image: url(https://i.pinimg.com/originals/0b/23/2c/0b232cb67429e2b57dd0f57ee0189118.png) 20% round;
+}
+
+h3{
+    text-shadow: 2px 3px 3px #FF4D6A;
+    font-family: 'Comfortaa', cursive;
+    color: #F19CBB;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-bottom: 3px;
+    padding-bottom: 10px;
+}
+
+#datos {
+    width: 500px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 10px;
+    border-style: outset;
+    border-color: #FF4D6A;
+    border-radius: 10px;
+
+}
+
+li{
+    list-style-type: square;
+    color: #FF4D6A;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#contacto {
+    width: 500px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 10px;
+    border-style: outset;
+    border-color: #FF4D6A;
+    border-radius: 10px;
+    
+    
+}
+    
+#estudios {
+        width: 500px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        margin: 5px;
+        border-style: outset;
+        border-color: #FF4D6A;
+        border-radius: 10px;
+    }
+
+#experiencia {
+        width: 500px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        margin: 10px;
+        border-style: outset;
+        border-color: #FF4D6A;
+        border-radius: 10px;
+        
+        
+    }
+
+#extras {
+        width: 1000px;
+        height: 350px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        margin: 450px;
+        margin-top: 0px;
+        border-style: outset;
+        border-color: #FF4D6A;
+        border-radius: 10px;
+        
+    }
+
+    p{
+    font-family: 'Comfortaa', cursive;
+    color: #F19CBB;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+    #img {
+        margin: 0px;
+        width: 300px;
+        
+    }
+
+    #box{
+        display: flex;
+    }
+
+    #demo{
+        color: #FF4D6A;
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+    }
+
+    #demo1{
+        color: #FF4D6A;
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+    }
+
+    #demo3{
+        color: #FF4D6A;
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+    }
+
+    button{
+        color: #FF4D6A;
+        border: #F19CBB 2px ridge;
+        font-family: 'Comfortaa', cursive;
+    }
